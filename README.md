@@ -1,2 +1,2 @@
-# ob_anonymization_R4_correlation
-Metrics for correlation in anonymization omnibenchmark
+# ob_anonymization_dataloss
+An Omnibenchmark of the information loss occurring during anonymization of RNA sequencing data. 

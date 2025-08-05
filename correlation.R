@@ -3,7 +3,6 @@ library("tidyverse")
 library("Seurat")
 library("Matrix")
 library("jsonlite")
-library("transport")
 
 args = commandArgs(trailingOnly=TRUE)
 case_pos <- args[1]

@@ -5,10 +5,10 @@ library("Matrix")
 library("jsonlite")
 library("transport")
 
-# args = commandArgs(trailingOnly=TRUE)
-# case_pos <- args[1]
-# ctrl_pos <- args[2]
-# outdir <- args[3]
+args = commandArgs(trailingOnly=TRUE)
+case_pos <- args[1]
+ctrl_pos <- args[2]
+outdir <- args[3]
 
 
 # setwd("/home/projects/dtu_00062/people/sorsan/ob_anonymization_dataloss")
@@ -16,11 +16,11 @@ library("transport")
 # ctrl_pos <- "out/data/D1/default/init_align/P1/param_0/second_align/M1/param_0/D1_ctrl.rds"
 # outdir <- "out/data/D1/default/init_align/P1/param_0/second_align/M1/param_0/metrics/m1/default/D1.somefile.txt"
 
-startdir <- "/Users/jkd448/Documents/OmniBenchmark/Development/R_sandbox"
-setwd(startdir)
-case_pos <- paste0(startdir,"/D1_case.rds")
-ctrl_pos <- paste0(startdir,"/D1_ctrl.rds")
-outdir <- paste0(startdir,"/outdir/D1.somefile.txt")
+# startdir <- "/Users/jkd448/Documents/OmniBenchmark/Development/R_sandbox"
+# setwd(startdir)
+# case_pos <- paste0(startdir,"/D1_case.rds")
+# ctrl_pos <- paste0(startdir,"/D1_ctrl.rds")
+# outdir <- paste0(startdir,"/outdir/D1.somefile.json")
 
 case_obj <- readRDS(case_pos)
 ctrl_obj <- readRDS(ctrl_pos)
